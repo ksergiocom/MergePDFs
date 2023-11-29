@@ -1,6 +1,8 @@
 import os
 from PyPDF2 import PdfMerger
 
+#Esto lo hace internet en 30segundos
+
 def merge_pdfs_in_directory():
     # Obtener la ruta del directorio actual
     directorio_actual = os.getcwd()
